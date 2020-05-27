@@ -1,4 +1,4 @@
-FROM openfaas/faas-cli:0.9.2
+FROM openfaas/faas-cli:0.12.4
 
 LABEL "name"="OpenFaaS CLI Action"
 LABEL "maintainer"="Lucas Roesler <roesler.lucas@gmail.com>"
