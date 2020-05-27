@@ -4,15 +4,19 @@ author: 'Lucas Roesler'
 inputs:
   filter:
     description: 'Wildcard to match with function names in YAML file'
+    required: false
     default: ''
   regex:
     description: 'Regex to match with function names in YAML file'
+    required: false
     default: ''
   tag:
     description: "Override latest tag on function Docker image, takes 'sha' or 'branch'"
+    required: false
     default: 'sha'
   path:
     description: "Path to stack YAML file"
+    required: false
     default: "./stack.yml"
 runs:
   using: 'docker'
